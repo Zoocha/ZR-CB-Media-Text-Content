@@ -1,0 +1,11 @@
+uuid: 700b36e1-0873-4a2c-976d-84f13cc36eda
+langcode: en
+status: true
+dependencies: {  }
+id: media_text_content
+block_id: 'inline_block:media_text_content'
+category: zoocha_components
+label: 'Media Text Content'
+image_path: ''
+image_alt: ''
+weight: -100

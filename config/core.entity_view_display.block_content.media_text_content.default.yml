@@ -1,0 +1,64 @@
+uuid: 1cdae99e-c1a0-47bb-94fd-93af8b8b3fec
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.media_text_content
+    - field.field.block_content.media_text_content.field_copy
+    - field.field.block_content.media_text_content.field_link
+    - field.field.block_content.media_text_content.field_media
+    - field.field.block_content.media_text_content.field_position
+    - field.field.block_content.media_text_content.field_sub_title
+  module:
+    - linkit
+    - options
+id: block_content.media_text_content.default
+targetEntityType: block_content
+bundle: media_text_content
+mode: default
+content:
+  field_copy:
+    type: basic_string
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_link:
+    type: linkit
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+      linkit_profile: default
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_media:
+    type: entity_reference_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_position:
+    type: list_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_sub_title:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }

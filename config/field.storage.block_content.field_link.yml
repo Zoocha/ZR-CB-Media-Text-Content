@@ -1,0 +1,21 @@
+uuid: 590cabab-fe1f-48c3-a0b2-93ea646edab8
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_content
+    - link
+_core:
+  default_config_hash: oEB4hGhvzlzuVboHfr06QkBf5IhTJKN5pJIwJ2MfkTs
+id: block_content.field_link
+field_name: field_link
+entity_type: block_content
+type: link
+settings: {  }
+module: link
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

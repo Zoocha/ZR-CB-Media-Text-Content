@@ -1,0 +1,23 @@
+uuid: aab500c8-997e-462b-a7ad-995d340b2400
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.media_text_content
+    - field.storage.block_content.field_link
+  module:
+    - link
+id: block_content.media_text_content.field_link
+field_name: field_link
+entity_type: block_content
+bundle: media_text_content
+label: Link
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  title: 1
+  link_type: 17
+field_type: link

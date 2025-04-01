@@ -1,0 +1,8 @@
+uuid: f5705c21-1684-4cca-93e0-823e2c5d4c8c
+langcode: en
+status: true
+dependencies: {  }
+id: media_text_content
+label: 'Media Text Content'
+revision: false
+description: null

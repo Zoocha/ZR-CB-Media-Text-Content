@@ -1,0 +1,21 @@
+uuid: f4333b35-f075-4fc1-a30a-510199b1e52c
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.media_text_content
+    - field.storage.block_content.field_position
+  module:
+    - options
+id: block_content.media_text_content.field_position
+field_name: field_position
+entity_type: block_content
+bundle: media_text_content
+label: Position
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

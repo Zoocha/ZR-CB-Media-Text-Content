@@ -1,0 +1,11 @@
+name: 'Zoocha Media Text Content'
+description: 'Provides Media Text Content component for Zoocha.'
+type: 'Feature'
+
+recipe:
+  - zr-layout-builder-bundle
+  - zr-media-bundle
+  - linkit
+
+config:
+  strict: false
