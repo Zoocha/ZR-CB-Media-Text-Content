@@ -19,14 +19,14 @@ mode: default
 content:
   field_copy:
     type: basic_string
-    label: above
+    label: hidden
     settings: {  }
     third_party_settings: {  }
     weight: 0
     region: content
   field_link:
     type: linkit
-    label: above
+    label: hidden
     settings:
       trim_length: 80
       url_only: false
@@ -39,7 +39,7 @@ content:
     region: content
   field_media:
     type: entity_reference_entity_view
-    label: above
+    label: hidden
     settings:
       view_mode: default
       link: false
@@ -48,14 +48,14 @@ content:
     region: content
   field_position:
     type: list_default
-    label: above
+    label: hidden
     settings: {  }
     third_party_settings: {  }
     weight: 3
     region: content
   field_sub_title:
     type: string
-    label: above
+    label: hidden
     settings:
       link_to_entity: false
     third_party_settings: {  }
