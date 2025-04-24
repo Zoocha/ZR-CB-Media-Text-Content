@@ -12,6 +12,8 @@ dependencies:
   module:
     - linkit
     - media_library
+_core:
+  default_config_hash: iv1EUTk2FyZMsOc0-ueFRPku-9tbwOsGbd71u8aXCr4
 id: block_content.media_text_content.default
 targetEntityType: block_content
 bundle: media_text_content
@@ -43,7 +45,7 @@ content:
       media_types: {  }
     third_party_settings: {  }
   field_position:
-    type: options_select
+    type: options_buttons
     weight: 4
     region: content
     settings: {  }

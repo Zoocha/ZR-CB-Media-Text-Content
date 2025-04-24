@@ -7,15 +7,19 @@ dependencies:
     - field.storage.block_content.field_position
   module:
     - options
+_core:
+  default_config_hash: aKE8KZ-8TOKO0BcndEE4KUaeiliaf_HXq-v-qiKJcAU
 id: block_content.media_text_content.field_position
 field_name: field_position
 entity_type: block_content
 bundle: media_text_content
 label: Position
 description: ''
-required: false
+required: true
 translatable: false
-default_value: {  }
+default_value:
+  -
+    value: left
 default_value_callback: ''
 settings: {  }
 field_type: list_string
